@@ -1,0 +1,23 @@
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+.header_languages {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+@media (max-width: 980px)
+{
+  body {
+    display: block;
+  }
+}
+
+@media (max-width: 600px)
+{
+  body {
+    display: block;
+  }
+}
