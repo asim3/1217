@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: father-1217
+  namespace: projects-father-1217
+  labels:
+    project: father-1217
+    type: main
+spec:
+  containers:
+  - image: asim3/father_1217:v0.12
+    name: father-1217
